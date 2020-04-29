@@ -54,7 +54,7 @@
         <dependency>
             <groupId>com.google.appengine</groupId>
 	    <artifactId>appengine-api-1.0-sdk</artifactId>
-            <version>${appengine.target.version}</version>
+            <version>1.9.80</version>
         </dependency>
 	   
 	    <!-- Test Dependencies -->
@@ -68,13 +68,13 @@
 	    <dependency>
 	      <groupId>com.google.appengine</groupId>
 	      <artifactId>appengine-testing</artifactId>
-	      <version>${appengine.target.version}</version>
+	      <version>1.9.80</version>
 	      <scope>test</scope>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.google.appengine</groupId>
 	      <artifactId>appengine-api-stubs</artifactId>
-	      <version>${appengine.target.version}</version>
+	      <version>1.9.80</version>
 	      <scope>test</scope>
 	    </dependency>
     </dependencies>
@@ -98,7 +98,7 @@
 	    <plugin>
 		<groupId>com.google.cloud.tools</groupId>
 		<artifactId>appengine-maven-plugin</artifactId>
-		<version>${appengine-maven-plugin-version}</version>
+		<version>1.9.80/version>
 	    </plugin>
         </plugins>
   </build>
